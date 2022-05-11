@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String_Incrementer", "String_Incrementer\String_Incrementer.csproj", "{56BB914C-CCF8-4E11-AA18-E5522C0C5DF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageResizeApp", "ImageResizeApp\ImageResizeApp.csproj", "{26E63E06-54AE-422B-92DB-B0F61B80CCF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56BB914C-CCF8-4E11-AA18-E5522C0C5DF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56BB914C-CCF8-4E11-AA18-E5522C0C5DF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56BB914C-CCF8-4E11-AA18-E5522C0C5DF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56BB914C-CCF8-4E11-AA18-E5522C0C5DF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26E63E06-54AE-422B-92DB-B0F61B80CCF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26E63E06-54AE-422B-92DB-B0F61B80CCF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26E63E06-54AE-422B-92DB-B0F61B80CCF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26E63E06-54AE-422B-92DB-B0F61B80CCF0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {22B7FC64-BE5A-4599-8BD1-EA52BA4D1E58}
+	EndGlobalSection
+EndGlobal
