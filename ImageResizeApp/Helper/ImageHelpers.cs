@@ -25,10 +25,12 @@ namespace ImageResizeApp.Helper
             return resultImage;
         }
 
+        // Find the center of the image by dividing its width/height by 2.
+        // Then subtract from those x/y values, half the width/height(edge) of the image(square)
         public static Bitmap ChangeImageToSquare(Image image, int edge)
         {
-            int x = (image.Width / 4);
-            int y = (image.Height / 4);
+            int x = (image.Width / 2) - (edge / 2);
+            int y = (image.Height / 2) - (edge / 2);
 
             Rectangle cropRect = new(x, y, edge, edge);
             Bitmap destination = new(cropRect.Width, cropRect.Height);
